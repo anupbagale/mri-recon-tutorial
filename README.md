@@ -23,9 +23,7 @@ Final-year undergraduate and early master's students in biomedical engineering, 
 
 Solutions to the exercises are in [`solutions/`](solutions/).
 
-<!-- After pushing to GitHub, replace YOUR-USERNAME and add a Colab badge for each notebook:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/mri-recon-tutorial/blob/main/notebooks/01_images_and_kspace.ipynb)
--->
+Start with Notebook 1: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/01_images_and_kspace.ipynb)
 
 ## Running locally
 
@@ -41,4 +39,4 @@ jupyter notebook
 
 ## Author
 
-Your Name, Your Institution
+Anup Bagale, Independent Researcher, Nepal
