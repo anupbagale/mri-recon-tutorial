@@ -16,8 +16,8 @@ Final-year undergraduate and early master's students in biomedical engineering, 
 | --- | --- | --- |
 | 1 | [Images and k-space](notebooks/01_images_and_kspace.ipynb) | Ready |
 | 2 | [Undersampling and aliasing](notebooks/02_undersampling_and_aliasing.ipynb) | Ready |
-| 3 | Compressed sensing | In progress |
-| 4 | Deep learning reconstruction | Planned |
+| 3 | [Compressed sensing](notebooks/03_compressed_sensing.ipynb) | Ready |
+| 4 | Deep learning reconstruction | In progress |
 | 5 | Evaluation and pitfalls | Planned |
 | 6 | Optional: real data with fastMRI | Planned |
 
@@ -27,6 +27,7 @@ Open the notebooks in Google Colab:
 
 - Notebook 1: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/01_images_and_kspace.ipynb)
 - Notebook 2: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/02_undersampling_and_aliasing.ipynb)
+- Notebook 3: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/03_compressed_sensing.ipynb)
 
 ## Running locally
 
