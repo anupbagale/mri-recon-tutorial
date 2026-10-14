@@ -28,7 +28,7 @@ Open the notebooks in Google Colab:
 - Notebook 1: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/01_images_and_kspace.ipynb)
 - Notebook 2: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/02_undersampling_and_aliasing.ipynb)
 - Notebook 3: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/03_compressed_sensing.ipynb)
-- Notebook 4: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/04_deep_learning_reconstruction.ipynb) (choose *Runtime > Change runtime type > T4 GPU* for faster training)
+- Notebook 4: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/04_deep_learning_reconstruction.ipynb) 
 
 ## Running locally
 
