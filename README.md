@@ -19,7 +19,7 @@ Final-year undergraduate and early master's students in biomedical engineering, 
 | 3 | [Compressed sensing](notebooks/03_compressed_sensing.ipynb) | Ready |
 | 4 | [Deep learning reconstruction](notebooks/04_deep_learning_reconstruction.ipynb) | Ready |
 | 5 | [Evaluation and pitfalls](notebooks/05_evaluation_and_pitfalls.ipynb) | Ready |
-| 6 | [Optional: real scanner data (M4Raw)](notebooks/06_real_data_m4raw.ipynb) | Beta |
+| 6 | [Optional: real scanner data (M4Raw)](notebooks/06_real_data_m4raw.ipynb) | Ready |
 
 Solutions to the exercises are in [`solutions/`](solutions/). The [`weights/`](weights/) folder holds the networks trained in Notebook 4, so learners can skip training and Notebook 5 can reuse them.
 
