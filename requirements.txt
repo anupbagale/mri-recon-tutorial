@@ -3,4 +3,6 @@ matplotlib>=3.7
 scikit-image>=0.21
 scipy>=1.10
 torch>=2.0
+h5py>=3.8
+huggingface_hub>=0.20
 jupyter

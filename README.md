@@ -19,7 +19,7 @@ Final-year undergraduate and early master's students in biomedical engineering, 
 | 3 | [Compressed sensing](notebooks/03_compressed_sensing.ipynb) | Ready |
 | 4 | [Deep learning reconstruction](notebooks/04_deep_learning_reconstruction.ipynb) | Ready |
 | 5 | [Evaluation and pitfalls](notebooks/05_evaluation_and_pitfalls.ipynb) | Ready |
-| 6 | Optional: real data with fastMRI | Planned |
+| 6 | [Optional: real scanner data (M4Raw)](notebooks/06_real_data_m4raw.ipynb) | Beta |
 
 Solutions to the exercises are in [`solutions/`](solutions/). The [`weights/`](weights/) folder holds the networks trained in Notebook 4, so learners can skip training and Notebook 5 can reuse them.
 
@@ -29,7 +29,8 @@ Open the notebooks in Google Colab:
 - Notebook 2: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/02_undersampling_and_aliasing.ipynb)
 - Notebook 3: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/03_compressed_sensing.ipynb)
 - Notebook 4: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/04_deep_learning_reconstruction.ipynb)
-- Notebook 5: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/05_evaluation_and_pitfalls.ipynb) 
+- Notebook 5: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/05_evaluation_and_pitfalls.ipynb)
+- Notebook 6: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/06_real_data_m4raw.ipynb)
 
 ## Running locally
 
@@ -37,6 +38,10 @@ Open the notebooks in Google Colab:
 pip install -r requirements.txt
 jupyter notebook
 ```
+
+## Data
+
+Notebooks 1–5 use simulated phantoms only. Notebook 6 downloads real k-space data from the M4Raw dataset ([Lyu et al., 2023](https://doi.org/10.1038/s41597-023-02181-4)), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) and hosted at [huggingface.co/datasets/mylyu/M4Raw_brain](https://huggingface.co/datasets/mylyu/M4Raw_brain). No data is stored in this repository.
 
 ## License
 
