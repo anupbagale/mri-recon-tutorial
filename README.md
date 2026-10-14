@@ -18,7 +18,7 @@ Final-year undergraduate and early master's students in biomedical engineering, 
 | 2 | [Undersampling and aliasing](notebooks/02_undersampling_and_aliasing.ipynb) | Ready |
 | 3 | [Compressed sensing](notebooks/03_compressed_sensing.ipynb) | Ready |
 | 4 | [Deep learning reconstruction](notebooks/04_deep_learning_reconstruction.ipynb) | Ready |
-| 5 | Evaluation and pitfalls | In progress |
+| 5 | [Evaluation and pitfalls](notebooks/05_evaluation_and_pitfalls.ipynb) | Ready |
 | 6 | Optional: real data with fastMRI | Planned |
 
 Solutions to the exercises are in [`solutions/`](solutions/). The [`weights/`](weights/) folder holds the networks trained in Notebook 4, so learners can skip training and Notebook 5 can reuse them.
@@ -28,7 +28,8 @@ Open the notebooks in Google Colab:
 - Notebook 1: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/01_images_and_kspace.ipynb)
 - Notebook 2: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/02_undersampling_and_aliasing.ipynb)
 - Notebook 3: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/03_compressed_sensing.ipynb)
-- Notebook 4: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/04_deep_learning_reconstruction.ipynb) 
+- Notebook 4: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/04_deep_learning_reconstruction.ipynb)
+- Notebook 5: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/05_evaluation_and_pitfalls.ipynb) 
 
 ## Running locally
 
