@@ -17,17 +17,18 @@ Final-year undergraduate and early master's students in biomedical engineering, 
 | 1 | [Images and k-space](notebooks/01_images_and_kspace.ipynb) | Ready |
 | 2 | [Undersampling and aliasing](notebooks/02_undersampling_and_aliasing.ipynb) | Ready |
 | 3 | [Compressed sensing](notebooks/03_compressed_sensing.ipynb) | Ready |
-| 4 | Deep learning reconstruction | In progress |
-| 5 | Evaluation and pitfalls | Planned |
+| 4 | [Deep learning reconstruction](notebooks/04_deep_learning_reconstruction.ipynb) | Ready |
+| 5 | Evaluation and pitfalls | In progress |
 | 6 | Optional: real data with fastMRI | Planned |
 
-Solutions to the exercises are in [`solutions/`](solutions/).
+Solutions to the exercises are in [`solutions/`](solutions/). The [`weights/`](weights/) folder holds the networks trained in Notebook 4, so learners can skip training and Notebook 5 can reuse them.
 
 Open the notebooks in Google Colab:
 
 - Notebook 1: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/01_images_and_kspace.ipynb)
 - Notebook 2: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/02_undersampling_and_aliasing.ipynb)
 - Notebook 3: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/03_compressed_sensing.ipynb)
+- Notebook 4: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anupbagale/mri-recon-tutorial/blob/main/notebooks/04_deep_learning_reconstruction.ipynb) (choose *Runtime > Change runtime type > T4 GPU* for faster training)
 
 ## Running locally
 
