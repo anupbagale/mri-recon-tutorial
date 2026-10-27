@@ -6,7 +6,7 @@ authors:
   - family-names: Bagale
     given-names: Anup
     affiliation: "Independent Researcher, Nepal"
-    # orcid: "https://orcid.org/0000-0000-0000-0000"   <- add your ORCID iD here
+    orcid: "https://orcid.org/0009-0001-8261-7113"
 repository-code: "https://github.com/anupbagale/mri-recon-tutorial"
 license: MIT
 version: "1.0"

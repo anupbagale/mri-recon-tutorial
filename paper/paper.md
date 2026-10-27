@@ -10,12 +10,12 @@ tags:
   - biomedical engineering
 authors:
   - name: Anup Bagale
-    orcid: 0000-0000-0000-0000
+    orcid: 0009-0001-8261-7113
     affiliation: 1
 affiliations:
   - name: Independent Researcher, Nepal
     index: 1
-date: 14 October 2026
+date: 27 October 2026
 bibliography: paper.bib
 ---
 
@@ -80,9 +80,9 @@ An instructor guide in the repository gives timing, suggested workshop and cours
 
 The notebooks were developed and tested in Google Colab, on CPU runtimes and on free T4 GPU runtimes. Every notebook was run from top to bottom in a fresh session before release, and Notebook 6 was run end to end on the real M4Raw data; its interpretations are based on those results. All random seeds are fixed, so learners see the same numbers as the text, apart from small differences between CPU and GPU runs.
 
-The module was then piloted with self-paced learners in October 2026. [NUMBER INVITED] students and recent graduates were invited to work through the notebooks on their own over about two weeks, in Google Colab, and to complete an anonymous feedback form. Six completed the form: two biomedical engineering students, three information technology students at bachelor's and master's level, and one participant from engineering. Five of the six completed all six notebooks and one completed Notebook 1. All six reported trying most of the exercises, and none reported errors running the code. Reported times ranged from about one hour for Notebook 1 to about three hours for Notebook 6.
+The module was then piloted with self-paced learners in October 2026. Seven students and recent graduates were invited to work through the notebooks on their own over about two weeks, in Google Colab, and to complete an anonymous feedback form. All seven completed the form: two biomedical engineering students, four information technology students at bachelor's and master's level, and one participant from engineering. Six of the seven completed all six notebooks and one completed Notebook 1. All seven reported trying most of the exercises, and none reported errors running the code. Reported times ranged from about one hour for Notebook 1 to about three hours for Notebook 6.
 
-On a scale from 1 to 5, participants' self-rated ability to explain k-space rose from a mean of 1.7 before the module to 4.5 after it, and their ability to explain why undersampling causes artifacts and how compressed sensing and deep learning remove them rose from 1.7 to 4.5. The clarity of the notebooks for self-study was rated 4.5 on average. Three participants named Notebook 5 as the most difficult, and one asked for more detailed explanations there. In response, Notebook 5 was extended with a roadmap of its questions, definitions of its key terms, a fuller explanation of how to read NRMSE, PSNR and SSIM, and a one-sentence summary after each result; the time estimates in all notebooks and in the instructor guide were also revised to the times participants reported. These results are self-reports from a small group, not a controlled evaluation, but they indicate that the module can be followed without an instructor.
+On a scale from 1 to 5, participants' self-rated ability to explain k-space rose from a mean of 1.6 before the module to 4.6 after it, and their ability to explain why undersampling causes artifacts and how compressed sensing and deep learning remove them rose from 1.6 to 4.6. The clarity of the notebooks for self-study was rated 4.6 on average. Three participants named Notebook 5 as the most difficult, and one asked for more detailed explanations there. In response, Notebook 5 was extended with a roadmap of its questions, definitions of its key terms, a fuller explanation of how to read NRMSE, PSNR and SSIM, and a one-sentence summary after each result; the time estimates in all notebooks and in the instructor guide were also revised to the times participants reported. These results are self-reports from a small group, not a controlled evaluation, but they indicate that the module can be followed without an instructor.
 
 # Story of the project
 
