@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this learning module, please cite it as below."
+title: "MRI Reconstruction from k-space to Deep Learning: A Hands-on Introduction"
+type: software
+authors:
+  - family-names: Bagale
+    given-names: Anup
+    affiliation: "Independent Researcher, Nepal"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   <- add your ORCID iD here
+repository-code: "https://github.com/anupbagale/mri-recon-tutorial"
+license: MIT
+version: "1.0"
+keywords:
+  - MRI
+  - image reconstruction
+  - compressed sensing
+  - deep learning
+  - medical imaging
+  - education
