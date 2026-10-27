@@ -1,5 +1,7 @@
 # MRI Reconstruction from k-space to Deep Learning
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23695724.svg)](https://doi.org/10.5281/zenodo.23695724)
+
 A hands-on, open learning module that teaches how MRI images are reconstructed: from the Fourier transform and k-space, through undersampling and compressed sensing, to deep learning reconstruction, its pitfalls, and real scanner data.
 
 Every concept is introduced by computing it and looking at the result. All notebooks run in Google Colab. Notebooks 1–5 use simulated phantoms, so there is nothing to download and no data agreement to sign; Notebook 6 downloads openly licensed raw MRI data.
@@ -58,7 +60,11 @@ Questions, problem reports and improvements are welcome. Please open an [issue](
 
 ## Citation
 
-If you use this module in teaching or research, please cite it using the information in [CITATION.cff](CITATION.cff), or the "Cite this repository" button on GitHub.
+If you use this module in teaching or research, please cite it:
+
+> Bagale, A. (2026). *MRI Reconstruction from k-space to Deep Learning: A Hands-on Introduction* (Version 1.0.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23695724
+
+The same information is in [CITATION.cff](CITATION.cff) and the "Cite this repository" button on GitHub.
 
 ## Author
 
