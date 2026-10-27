@@ -31,7 +31,7 @@ Image reconstruction is a core topic of MRI and one of the most active areas of 
 
 Hands-on material faces two practical barriers. First, the large public raw-data collections used in research, such as fastMRI [@Zbontar2018], require an application and a data use agreement, which is difficult for self-learners and for students without an institutional affiliation. Second, research code and toolboxes are written for people who already understand the methods, not for building that understanding step by step.
 
-This module fills that gap with a single, open sequence that goes from Fourier basics to deep learning reconstruction in small, runnable steps, on free hardware. It also gives explicit attention to evaluation: published work has shown that learned reconstructions can be unstable or lose small abnormalities [@Antun2020; @Muckley2021], and the module lets learners reproduce such failures themselves.
+This module fills that gap with a single, open sequence that goes from Fourier basics to deep learning reconstruction in small, runnable steps, on free hardware. It also gives explicit attention to evaluation: published work has shown that learned reconstructions can be unstable, lose small structures, or add features that are not there [@Antun2020; @Muckley2021], and the module lets learners reproduce such failures themselves.
 
 The target audience is final-year undergraduate and early graduate students in biomedical engineering, physics, electrical engineering and computer science, instructors of medical imaging courses, and self-learners. Because Notebook 6 uses data from an affordable low-field (0.3 T) scanner [@Lyu2023], the module is also relevant to learners in regions where such systems are being adopted.
 
@@ -53,14 +53,14 @@ After completing the module, learners will be able to:
 | --- | --- | --- |
 | 1 | Images and k-space | Centered FFT; each k-space point as a stripe pattern; center vs edges of k-space; resolution; spike artifacts |
 | 2 | Undersampling and aliasing | Acceleration factor; regular, random and variable-density sampling; point spread function; why noise-like artifacts can be removed |
-| 3 | Compressed sensing | Sparsity in a Haar wavelet basis; soft thresholding; ISTA [@Daubechies2004; @Lustig2007]; effect of the regularization weight |
+| 3 | Compressed sensing | Compressed sensing for MRI [@Lustig2007]; sparsity in a Haar wavelet basis; soft thresholding; ISTA [@Daubechies2004]; effect of the regularization weight |
 | 4 | Deep learning reconstruction | Simulated training data; a U-Net [@Ronneberger2015]; an unrolled network with data consistency [@Schlemper2018; @Hammernik2018]; accuracy and speed |
-| 5 | Evaluation and pitfalls | NRMSE, PSNR and SSIM [@Wang2004]; features absent from training; new masks, higher acceleration and noise; images unlike the training data [@Knoll2019] |
+| 5 | Evaluation and pitfalls | NRMSE, PSNR and SSIM [@Wang2004]; features absent from training [@Antun2020]; new masks, higher acceleration and noise [@Knoll2019]; images unlike the training data |
 | 6 | Real scanner data | Multi-coil k-space from M4Raw; coil combination; zero-padded acquisitions; training and testing on separate subjects |
 
 Each notebook ends with four exercises; learners in the pilot needed about one to three hours per notebook on their own. The results are concrete and reproducible. In Notebook 3, compressed sensing roughly halves the zero-filled error on the Shepp-Logan phantom [@Shepp1974] from the same 64 measured k-space lines. In Notebook 4, an unrolled network reaches about a sixth of the zero-filled error on simulated test phantoms, with 16 times fewer weights than the U-Net. Yet in Notebook 5, on a photograph, both networks do worse than no reconstruction at all, while compressed sensing still helps. On real low-field data in Notebook 6, the phantom-trained U-Net does worse than zero-filling, the phantom-trained unrolled network still helps because data consistency anchors it to the measurements, and a network trained for about a minute on real data performs best.
 
-The notebooks use NumPy [@Harris2020], scikit-image [@vanderWalt2014] and PyTorch [@Paszke2019]. Shared helper functions are introduced once and reused, so code from earlier notebooks stays familiar.
+The notebooks use NumPy [@Harris2020], Matplotlib [@Hunter2007], scikit-image [@vanderWalt2014] and PyTorch [@Paszke2019]. Shared helper functions are introduced once and reused, so code from earlier notebooks stays familiar.
 
 # Prerequisites
 
@@ -92,7 +92,7 @@ The module grew out of that path. Each notebook was built around a single questi
 
 # AI usage disclosure
 
-Generative AI (Claude, Anthropic; [MODEL VERSION as shown in the Claude app], used in October 2026) assisted in developing this module. It was used to draft the notebook code and explanatory text, the exercise solutions, the documentation and an initial version of this paper, and to check numerical results against the text. The author defined the scope, sequence and teaching approach of the module, reviewed all generated material, ran every notebook end to end, including Notebook 6 on real scanner data, corrected and revised the content, piloted it with learners, and takes full responsibility for its accuracy.
+Claude AI (Anthropic) assisted in the initial phase of this work by drafting the notebook text, code and paper. The author revised and verified all content, conducted the pilot study and takes full responsibility for the work.
 
 # Acknowledgements
 
